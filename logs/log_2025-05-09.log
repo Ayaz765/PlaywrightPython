@@ -1,0 +1,34 @@
+2025-05-09 12:08:40,211 - INFO - utils.base_page - Loaded locators from sheet: login
+2025-05-09 12:08:40,211 - INFO - utils.base_page - Locators successfully loaded from Excel sheets.
+2025-05-09 12:08:40,212 - INFO - utils.base_page - Navigating to URL: https://acexpress-test.adeptia.com/#/auth/login
+2025-05-09 12:08:43,480 - INFO - utils.base_page - Filling 'username_field' with value: bb
+2025-05-09 12:08:43,832 - INFO - utils.base_page - Filling 'password_field' with value: mm
+2025-05-09 12:08:43,858 - INFO - utils.base_page - Filling 'email_field' with value: mm
+2025-05-09 12:09:13,866 - ERROR - utils.base_page - Failed to fill 'email_field': Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[name='email']")
+
+2025-05-09 12:09:14,180 - INFO - utils.base_page - Loaded locators from sheet: login
+2025-05-09 12:09:14,180 - INFO - utils.base_page - Locators successfully loaded from Excel sheets.
+2025-05-09 12:09:14,181 - INFO - utils.base_page - Navigating to URL: https://acexpress-test.adeptia.com/#/auth/login
+2025-05-09 12:09:14,997 - INFO - utils.base_page - Filling 'username_field' with value: ss
+2025-05-09 12:09:15,404 - INFO - utils.base_page - Filling 'password_field' with value: ss
+2025-05-09 12:09:15,439 - INFO - utils.base_page - Filling 'email_field' with value: nn
+2025-05-09 12:09:45,450 - ERROR - utils.base_page - Failed to fill 'email_field': Page.fill: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("input[name='email']")
+
+2025-05-09 12:28:46,027 - INFO - utils.base_page - Loaded locators from sheet: login
+2025-05-09 12:28:46,027 - INFO - utils.base_page - Locators successfully loaded from Excel sheets.
+2025-05-09 12:28:46,028 - INFO - utils.base_page - Navigating to URL: https://acexpress-test.adeptia.com/#/auth/login
+2025-05-09 12:28:47,245 - ERROR - utils.base_page - Failed to navigate to https://acexpress-test.adeptia.com/#/auth/login: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://acexpress-test.adeptia.com/#/auth/login", waiting until "load"
+
+2025-05-09 12:28:47,512 - INFO - utils.base_page - Loaded locators from sheet: login
+2025-05-09 12:28:47,513 - INFO - utils.base_page - Locators successfully loaded from Excel sheets.
+2025-05-09 12:28:47,514 - INFO - utils.base_page - Navigating to URL: https://acexpress-test.adeptia.com/#/auth/login
+2025-05-09 12:28:48,443 - ERROR - utils.base_page - Failed to navigate to https://acexpress-test.adeptia.com/#/auth/login: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://acexpress-test.adeptia.com/#/auth/login", waiting until "load"
+
